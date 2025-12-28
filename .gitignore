@@ -1,0 +1,25 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+/.vscode/
+/.idea/
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Node
+node_modules/
+
+# Build / archives
+*.mcpack
+*.zip
+
+# Env
+.env
+
+# IDE
+*.iml
