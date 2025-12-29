@@ -2,43 +2,43 @@
   "format_version": "1.21.70",
   "minecraft:item": {
     "description": {
-      "identifier": "netheriteplus:netherite_diamond_hoe",
+      "identifier": "netheriteplus:netherite_copper_pickaxe",
       "menu_category": {
         "category": "equipment",
-        "group": "minecraft:itemGroup.name.hoe"
+        "group": "minecraft:itemGroup.name.pickaxe"
       }
     },
     "components": {
       "minecraft:max_stack_size": 1,
       "minecraft:hand_equipped": true,
-      "minecraft:icon": "netheriteplus:netherite_diamond_hoe",
+      "minecraft:icon": "netheriteplus:netherite_copper_pickaxe",
       "minecraft:display_name": {
-        "value": "Netherite Diamond Hoe"
+        "value": "Netherite Copper Pickaxe"
       },
       "minecraft:durability": {
-        "max_durability": 3047
+        "max_durability": 3048
       },
       "minecraft:damage": 9,
       "minecraft:enchantable": {
-        "slot": "hoe",
+        "slot": "pickaxe",
         "value": 12
       },
       "minecraft:tags": {
         "tags": [
-          "minecraft:is_hoe"
+          "minecraft:is_pickaxe"
         ]
       },
       "minecraft:repairable": {
         "repair_items": [
           {
             "items": [
-              "netheriteplus:netherite_diamond_ingot"
+              "netheriteplus:netherite_copper_ingot"
             ],
             "repair_amount": "context.other->query.remaining_durability + 0.1 * context.other->query.max_durability"
           },
           {
             "items": [
-              "minecraft:diamond"
+              "minecraft:copper"
             ],
             "repair_amount": "context.other->query.remaining_durability + 0.01 * context.other->query.max_durability"
           },
@@ -52,6 +52,17 @@
       },
       "minecraft:rarity": {
         "minecraft:rarity": "rare"
+      },
+      "minecraft:digger": {
+        "use_efficiency": true,
+        "destroy_speeds": [
+          {
+            "block": {
+              "tags": "q.any_tag('copper_pick_diggable','minecraft:copper_tier_destructible','metal','minecraft:is_pickaxe_item_destructible')"
+            },
+            "speed": 20000
+          }
+        ]
       }
     }
   }

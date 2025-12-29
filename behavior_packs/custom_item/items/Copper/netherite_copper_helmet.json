@@ -2,7 +2,7 @@
   "format_version": "1.20.80",
   "minecraft:item": {
     "description": {
-      "identifier": "netheriteplus:netherite_diamond_helmet",
+      "identifier": "netheriteplus:netherite_copper_helmet",
       "menu_category": {
         "group": "itemGroup.name.helmet",
         "category": "equipment"
@@ -21,13 +21,13 @@
         "repair_items": [
           {
             "items": [
-              "netheriteplus:netherite_emerald_ingot"
+              "netheriteplus:netherite_copper_ingot"
             ],
             "repair_amount": "context.other->query.remaining_durability + 0.1 * context.other->query.max_durability"
           },
           {
             "items": [
-              "minecraft:diamond"
+              "minecraft:copper"
             ],
             "repair_amount": "context.other->query.remaining_durability + 0.01 * context.other->query.max_durability"
           },
@@ -40,14 +40,14 @@
         ]
       },
       "minecraft:display_name": {
-        "value": "Netherite Diamond Helmet"
+        "value": "Netherite Copper Helmet"
       },
       "minecraft:knockback_resistance": {
         "protection": 0.13
       },
       "minecraft:icon": {
         "textures": {
-          "default": "netheriteplus:netherite_diamond_helmet"
+          "default": "netheriteplus:netherite_copper_helmet"
         }
       },
       "minecraft:wearable": {

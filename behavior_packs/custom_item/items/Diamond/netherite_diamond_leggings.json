@@ -21,7 +21,7 @@
         "repair_items": [
           {
             "items": [
-              "netheriteplus:netherite_emerald_ingot"
+              "netheriteplus:netherite_diamond_ingot"
             ],
             "repair_amount": "context.other->query.remaining_durability + 0.1 * context.other->query.max_durability"
           },

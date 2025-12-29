@@ -32,9 +32,6 @@
     "netheriteplus:netherite_diamond_sword": {
       "textures": "textures/items/Diamond/netherite_diamond_sword"
     },
-    "netheriteplus:netherite_diamond_upgrade": {
-      "textures": "textures/items/Diamond/netherite_diamond_upgrade"
-    },
     "netheriteplus:netherite_emerald_axe": {
       "textures": "textures/items/Emerald/netherite_emerald_axe"
     },
@@ -64,9 +61,6 @@
     },
     "netheriteplus:netherite_emerald_sword": {
       "textures": "textures/items/Emerald/netherite_emerald_sword"
-    },
-    "netheriteplus:netherite_emerald_upgrade": {
-      "textures": "textures/items/Emerald/netherite_emerald_upgrade"
     },
     "netheriteplus:netherite_gold_axe": {
       "textures": "textures/items/Gold/netherite_gold_axe"
@@ -98,9 +92,6 @@
     "netheriteplus:netherite_gold_sword": {
       "textures": "textures/items/Gold/netherite_gold_sword"
     },
-    "netheriteplus:netherite_gold_upgrade": {
-      "textures": "textures/items/Gold/netherite_gold_upgrade"
-    },
     "netheriteplus:netherite_iron_axe": {
       "textures": "textures/items/Iron/netherite_iron_axe"
     },
@@ -131,11 +122,38 @@
     "netheriteplus:netherite_iron_sword": {
       "textures": "textures/items/Iron/netherite_iron_sword"
     },
-    "netheriteplus:netherite_iron_upgrade": {
-      "textures": "textures/items/Iron/netherite_iron_upgrade"
+    "netheriteplus:netherite_copper_axe": {
+      "textures": "textures/items/Copper/netherite_copper_axe"
+    },
+    "netheriteplus:netherite_copper_boots": {
+      "textures": "textures/items/Copper/netherite_copper_boots"
+    },
+    "netheriteplus:netherite_copper_chestplate": {
+      "textures": "textures/items/Copper/netherite_copper_chestplate"
+    },
+    "netheriteplus:netherite_copper_helmet": {
+      "textures": "textures/items/Copper/netherite_copper_helmet"
+    },
+    "netheriteplus:netherite_copper_hoe": {
+      "textures": "textures/items/Copper/netherite_copper_hoe"
     },
     "netheriteplus:netherite_copper_ingot": {
-      "textures": "textures/items/netherite_copper_ingot"
+      "textures": "textures/items/Copper/netherite_copper_ingot"
+    },
+    "netheriteplus:netherite_copper_leggings": {
+      "textures": "textures/items/Copper/netherite_copper_leggings"
+    },
+    "netheriteplus:netherite_copper_pickaxe": {
+      "textures": "textures/items/Copper/netherite_copper_pickaxe"
+    },
+    "netheriteplus:netherite_copper_shovel": {
+      "textures": "textures/items/Copper/netherite_copper_shovel"
+    },
+    "netheriteplus:netherite_copper_sword": {
+      "textures": "textures/items/Copper/netherite_copper_sword"
+    },
+    "netheriteplus:netherite_upgrade": {
+      "textures": "textures/items/netherite_upgrade_template"
     }
   }
 }

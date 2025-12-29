@@ -2,9 +2,9 @@
   "format_version": "1.20.80",
   "minecraft:item": {
     "description": {
-      "identifier": "netheriteplus:netherite_diamond_leggings",
+      "identifier": "netheriteplus:netherite_copper_boots",
       "menu_category": {
-        "group": "itemGroup.name.Leggings",
+        "group": "itemGroup.name.boots",
         "category": "equipment"
       }
     },
@@ -12,7 +12,7 @@
       "minecraft:max_stack_size": 1,
       "minecraft:enchantable": {
         "value": 10,
-        "slot": "armor_legs"
+        "slot": "armor_feet"
       },
       "minecraft:durability": {
         "max_durability": 1340
@@ -21,13 +21,13 @@
         "repair_items": [
           {
             "items": [
-              "netheriteplus:netherite_emerald_ingot"
+              "netheriteplus:netherite_copper_ingot"
             ],
             "repair_amount": "context.other->query.remaining_durability + 0.1 * context.other->query.max_durability"
           },
           {
             "items": [
-              "minecraft:diamond"
+              "minecraft:copper_ingot"
             ],
             "repair_amount": "context.other->query.remaining_durability + 0.01 * context.other->query.max_durability"
           },
@@ -40,19 +40,19 @@
         ]
       },
       "minecraft:display_name": {
-        "value": "Netherite Diamond Leggings"
+        "value": "Netherite Copper Boots"
       },
       "minecraft:knockback_resistance": {
         "protection": 0.13
       },
       "minecraft:icon": {
         "textures": {
-          "default": "netheriteplus:netherite_diamond_leggings"
+          "default": "netheriteplus:netherite_copper_boots"
         }
       },
       "minecraft:wearable": {
         "protection": 8,
-        "slot": "slot.armor.legs"
+        "slot": "slot.armor.feet"
       },
       "minecraft:tags": {
         "tags": [

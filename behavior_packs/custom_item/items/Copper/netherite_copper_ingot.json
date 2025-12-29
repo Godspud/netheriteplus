@@ -2,19 +2,16 @@
   "format_version": "1.21.70",
   "minecraft:item": {
     "description": {
-      "identifier": "netheriteplus:netherite_diamond_ingot",
+      "identifier": "netheriteplus:netherite_copper_ingot",
       "menu_category": {
         "category": "items"
       }
     },
     "components": {
       "minecraft:max_stack_size": 64,
-      "minecraft:icon": "netheriteplus:netherite_diamond_ingot",
+      "minecraft:icon": "netheriteplus:netherite_copper_ingot",
       "minecraft:display_name": {
-        "value": "Netherite Diamond Ingot"
-      },
-      "minecraft:wearable": {
-        "slot": "slot.weapon.offhand"
+        "value": "Netherite Copper Ingot"
       },
       "minecraft:rarity": {
         "minecraft:rarity": "rare"

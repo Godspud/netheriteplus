@@ -13,9 +13,6 @@
       "minecraft:display_name": {
         "value": "Netherite Gold Ingot"
       },
-      "minecraft:wearable": {
-        "slot": "slot.weapon.offhand"
-      },
       "minecraft:rarity": {
         "minecraft:rarity": "rare"
       }

@@ -1,44 +1,44 @@
 {
-"format_version": "1.21.70",
+  "format_version": "1.21.70",
   "minecraft:item": {
     "description": {
-      "identifier": "netheriteplus:netherite_diamond_shovel",
+      "identifier": "netheriteplus:netherite_copper_hoe",
       "menu_category": {
         "category": "equipment",
-        "group": "minecraft:itemGroup.name.shovel"
+        "group": "minecraft:itemGroup.name.hoe"
       }
     },
     "components": {
       "minecraft:max_stack_size": 1,
       "minecraft:hand_equipped": true,
-      "minecraft:icon": "netheriteplus:netherite_diamond_shovel",
+      "minecraft:icon": "netheriteplus:netherite_copper_hoe",
       "minecraft:display_name": {
-        "value": "Netherite Diamond Shovel"
+        "value": "Netherite Copper Hoe"
       },
       "minecraft:durability": {
         "max_durability": 3047
       },
-      "minecraft:damage": 8,
+      "minecraft:damage": 9,
       "minecraft:enchantable": {
-        "slot": "shovel",
+        "slot": "hoe",
         "value": 12
       },
       "minecraft:tags": {
         "tags": [
-          "minecraft:is_shovel"
+          "minecraft:is_hoe"
         ]
       },
       "minecraft:repairable": {
         "repair_items": [
           {
             "items": [
-              "netheriteplus:netherite_diamond_ingot"
+              "netheriteplus:netherite_copper_ingot"
             ],
             "repair_amount": "context.other->query.remaining_durability + 0.1 * context.other->query.max_durability"
           },
           {
             "items": [
-              "minecraft:diamond"
+              "minecraft:copper"
             ],
             "repair_amount": "context.other->query.remaining_durability + 0.01 * context.other->query.max_durability"
           },
