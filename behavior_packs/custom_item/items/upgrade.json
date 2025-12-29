@@ -2,14 +2,14 @@
   "format_version": "1.21.30",
   "minecraft:item": {
     "description": {
-      "identifier": "netheriteplus:netherite_diamond_upgrade",
+      "identifier": "netheriteplus:netherite_upgrade",
       "menu_category": {
         "category": "items",
         "group": "itemGroup.name.smithing_templates"
       }
     },
     "components": {
-      "minecraft:icon": "netheriteplus:netherite_diamond_upgrade",
+      "minecraft:icon": "netheriteplus:netherite_upgrade",
       "minecraft:display_name": {
         "value": "%Netherite Upgrade\n§7%item.smithing_template.name§r\n\n§7%item.smithing_template.applies_to§r\n §9%item.smithing_template.netherite_upgrade.applies_to§r\n§7%item.smithing_template.ingredients\n §9%item.smithing_template.netherite_upgrade.ingredients§r"
       },
