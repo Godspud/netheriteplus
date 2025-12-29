@@ -15,6 +15,9 @@
     },
     "netheriteplus:netherite_iron_block": {
       "textures": "textures/blocks/netherite_iron_block"
+    },
+    "netheriteplus:netherite_copper_block": {
+      "textures": "textures/blocks/netherite_copper_block"
     }
   }
 }
