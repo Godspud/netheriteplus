@@ -2,30 +2,30 @@
   "format_version": "1.17.41",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "netheriteplus:netherite_diamond_block"
+      "identifier": "netheriteplus:netherite_gold_block"
     },
     "tags": [
       "crafting_table"
     ],
     "pattern": [
-      "DDD",
-      "DDD",
-      "DDD"
+      "GGG",
+      "GGG",
+      "GGG"
     ],
     "key": {
-      "D": "netheriteplus:netherite_diamond_ingot" 
+      "G": "netheriteplus:netherite_gold_ingot"
     },
     "unlock": [
       {
-        "item": "minecraft:diamond"
+        "item": "minecraft:gold_ingot"
       },
       {
         "item": "minecraft:netherite_ingot"
       },
       {
-        "item": "netheriteplus:netherite_diamond_ingot"
+        "item": "netheriteplus:netherite_gold_ingot"
       }
     ],
-    "result": "netheriteplus:netherite_diamond_block"
+    "result": "netheriteplus:netherite_gold_block"
   }
 }
