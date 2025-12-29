@@ -21,15 +21,21 @@
       "minecraft:repairable": {
         "repair_items": [
           {
-            "items": ["netheriteplus:netherite_iron_ingot"],
+            "items": [
+              "netheriteplus:netherite_iron_ingot"
+            ],
             "repair_amount": "context.other->query.remaining_durability + 0.1 * context.other->query.max_durability"
           },
           {
-            "items": ["minecraft:iron_ingot"],
+            "items": [
+              "minecraft:iron_ingot"
+            ],
             "repair_amount": "context.other->query.remaining_durability + 0.01 * context.other->query.max_durability"
           },
           {
-            "items": ["minecraft:netherite_ingot"],
+            "items": [
+              "minecraft:netherite_ingot"
+            ],
             "repair_amount": "context.other->query.remaining_durability + 0.05 * context.other->query.max_durability"
           }
         ]
@@ -49,6 +55,9 @@
       },
       "minecraft:rarity": {
         "minecraft:rarity": "rare"
+      },
+      "minecraft:fire_resistant": {
+        "value": true
       }
     }
   }

@@ -55,6 +55,9 @@
       },
       "minecraft:rarity": {
         "minecraft:rarity": "rare"
+      },
+      "minecraft:fire_resistant": {
+        "value": true
       }
     }
   }

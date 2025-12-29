@@ -11,7 +11,7 @@
     "components": {
       "minecraft:icon": "netheriteplus:netherite_upgrade",
       "minecraft:display_name": {
-        "value": "%Netherite Upgrade\n§7%item.smithing_template.name§r\n\n§7%item.smithing_template.applies_to§r\n §9%item.smithing_template.netherite_upgrade.applies_to§r\n§7%item.smithing_template.ingredients\n §9%item.smithing_template.netherite_upgrade.ingredients§r"
+        "value": "%Netherite Upgrade\n\u00a77%item.smithing_template.name\u00a7r\n\n\u00a77%item.smithing_template.applies_to\u00a7r\n \u00a79%item.smithing_template.netherite_upgrade.applies_to\u00a7r\n\u00a77%item.smithing_template.ingredients\n \u00a79%item.smithing_template.netherite_upgrade.ingredients\u00a7r"
       },
       "minecraft:tags": {
         "tags": [
@@ -20,6 +20,9 @@
       },
       "minecraft:rarity": {
         "minecraft:rarity": "rare"
+      },
+      "minecraft:fire_resistant": {
+        "value": true
       }
     }
   }

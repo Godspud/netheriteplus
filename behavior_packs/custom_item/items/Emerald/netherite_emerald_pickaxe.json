@@ -63,6 +63,9 @@
             "speed": 20000
           }
         ]
+      },
+      "minecraft:fire_resistant": {
+        "value": true
       }
     }
   }

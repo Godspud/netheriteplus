@@ -1,5 +1,5 @@
 {
-"format_version": "1.21.70",
+  "format_version": "1.21.70",
   "minecraft:item": {
     "description": {
       "identifier": "netheriteplus:netherite_gold_shovel",
@@ -52,6 +52,9 @@
       },
       "minecraft:rarity": {
         "minecraft:rarity": "rare"
+      },
+      "minecraft:fire_resistant": {
+        "value": true
       }
     }
   }

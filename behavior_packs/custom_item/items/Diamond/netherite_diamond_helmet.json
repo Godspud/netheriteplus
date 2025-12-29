@@ -58,6 +58,9 @@
         "tags": [
           "minecraft:trimmable_armors"
         ]
+      },
+      "minecraft:fire_resistant": {
+        "value": true
       }
     }
   }
