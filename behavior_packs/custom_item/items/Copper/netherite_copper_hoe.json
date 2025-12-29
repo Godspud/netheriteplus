@@ -21,7 +21,7 @@
       "minecraft:damage": 9,
       "minecraft:enchantable": {
         "slot": "hoe",
-        "value": 12
+        "value": 11
       },
       "minecraft:tags": {
         "tags": [

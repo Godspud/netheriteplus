@@ -20,7 +20,7 @@
       },
       "minecraft:enchantable": {
         "slot": "sword",
-        "value": 12
+        "value": 13
       },
       "minecraft:repairable": {
         "repair_items": [

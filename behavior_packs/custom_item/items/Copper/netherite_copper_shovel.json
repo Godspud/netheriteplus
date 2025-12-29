@@ -21,7 +21,7 @@
       "minecraft:damage": 8,
       "minecraft:enchantable": {
         "slot": "shovel",
-        "value": 12
+        "value": 11
       },
       "minecraft:tags": {
         "tags": [

@@ -21,7 +21,7 @@
 			"minecraft:damage": 9,
 			"minecraft:enchantable": {
 				"slot": "axe",
-				"value": 12
+				"value": 14
 			},
 			"minecraft:tags": {
 				"tags": [
