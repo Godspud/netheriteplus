@@ -1,0 +1,103 @@
+{
+  "components": [
+    {
+      "id": "component_ulct2w317",
+      "type": "container_item_with_picture",
+      "x": 43,
+      "y": 40,
+      "width": 18,
+      "height": 18,
+      "properties": {
+        "collection_index": 2,
+        "picture": "user_uploaded:custom_ingot_image_mjsdnywtnme4k",
+        "userEditedTexturePath": false
+      },
+      "zIndex": 40
+    },
+    {
+      "id": "component_elft0jk3m",
+      "type": "container_item_with_picture",
+      "x": 7,
+      "y": 40,
+      "width": 18,
+      "height": 18,
+      "properties": {
+        "collection_index": 6,
+        "picture": "user_uploaded:custom_templates_slot_overlay_mjsdm6kmd7ds4",
+        "userEditedTexturePath": false
+      },
+      "zIndex": 80
+    },
+    {
+      "id": "component_sx3a8i1m6",
+      "type": "container_item",
+      "x": 25,
+      "y": 40,
+      "width": 18,
+      "height": 18,
+      "properties": {
+        "collection_index": 7
+      },
+      "zIndex": 90
+    },
+    {
+      "id": "component_8wiusohpx",
+      "type": "container_item",
+      "x": 97,
+      "y": 40,
+      "width": 18,
+      "height": 18,
+      "properties": {
+        "collection_index": 9
+      },
+      "zIndex": 110
+    },
+    {
+      "id": "component_wwnopn5qs",
+      "type": "image",
+      "x": 70,
+      "y": 41,
+      "width": 21,
+      "height": 17,
+      "properties": {
+        "texture": "user_uploaded:custom_arrow_mjse47o6f0xvh",
+        "alpha": 1,
+        "userEditedTexturePath": false
+      },
+      "zIndex": 130
+    },
+    {
+      "id": "component_1ul7g241f",
+      "type": "image",
+      "x": 7,
+      "y": 3,
+      "width": 32,
+      "height": 32,
+      "properties": {
+        "texture": "user_uploaded:custom_smithing_icon_mjse648se6nmn",
+        "alpha": 1,
+        "userEditedTexturePath": false
+      },
+      "zIndex": 140
+    },
+    {
+      "id": "component_60whi69q4",
+      "type": "label",
+      "x": 52.24999678762334,
+      "y": 12.16541491056743,
+      "width": 80,
+      "height": 20,
+      "properties": {
+        "text": "Upgrade Gear",
+        "color": [
+          0.25,
+          0.25,
+          0.25
+        ]
+      },
+      "zIndex": 150
+    }
+  ],
+  "version": "1.0.2",
+  "timestamp": 1767087682083
+}

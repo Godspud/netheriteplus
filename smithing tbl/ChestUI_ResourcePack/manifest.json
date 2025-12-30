@@ -1,0 +1,29 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Custom Chest UI",
+    "description": "Custom chest UI created with Chest UI Editor",
+    "uuid": "6fb7db36-f2c6-48c2-a938-f18a7d419ee1",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      16,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "3a52ee6c-1f02-48bb-a367-ff81a2a26fa1",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ]
+}
