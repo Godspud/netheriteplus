@@ -1,0 +1,25 @@
+{
+  "format_version": "1.21.70",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "netheriteplus:netherite_emerald_boots",
+      "materials": {
+        "default": "armor",
+        "enchanted": "armor_enchanted"
+      },
+      "textures": {
+        "default": "textures/models/armor/netherite_emerald_layer_1",
+        "enchanted": "textures/misc/enchanted_actor_glint"
+      },
+      "geometry": {
+        "default": "geometry.player.armor.boots"
+      },
+      "scripts": {
+        "parent_setup": "variable.chest_layer_visible = 0.0;"
+      },
+      "render_controllers": [
+        "controller.render.armor"
+      ]
+    }
+  }
+}

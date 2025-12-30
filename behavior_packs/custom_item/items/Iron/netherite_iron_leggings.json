@@ -5,7 +5,7 @@
       "identifier": "netheriteplus:netherite_iron_leggings",
       "menu_category": {
         "category": "equipment",
-        "group": "itemGroup.name.legs"
+        "group": "minecraft:itemGroup.name.leggings"
       }
     },
     "components": {

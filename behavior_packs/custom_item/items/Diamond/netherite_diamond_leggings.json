@@ -4,7 +4,7 @@
     "description": {
       "identifier": "netheriteplus:netherite_diamond_leggings",
       "menu_category": {
-        "group": "itemGroup.name.Leggings",
+        "group": "minecraft:itemGroup.name.leggings",
         "category": "equipment"
       }
     },
